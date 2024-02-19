@@ -1,1 +1,1 @@
-Eksempler til Coding Pirates Lyngby - Python med micro:bit
+Eksempler til Coding Pirates Microsoft Lyngby - Python med micro:bit
