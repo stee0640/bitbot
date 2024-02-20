@@ -31,6 +31,7 @@ np = neopixel.NeoPixel(pin13, 12)
 
 display.show(Image.HAPPY)
 sleep(2000)
+pin0.write_digital(0)
 music.play(music.PYTHON, wait=False)    
 display.clear()
 drive_left(0)
@@ -50,10 +51,12 @@ for counter2 in range(800):
     sleep(20)
     counter += 1
 stop_right()
+pin0.write_digital(0)
 np.clear()
 display.scroll("FARVEL")
 display.show(Image.SKULL)
 music.play(music.FUNERAL)
 music.stop()
+pin0.write_digital(0)
 while True:
     pass
